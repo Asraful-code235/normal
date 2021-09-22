@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+body{
+    width: 50%;
+}
+
+.slide-frame{
+    position: absolute;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.img-container img {
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slide-image{
+      width: 100%;
+      height: 450px;
+      overflow: hidden;
+      border-radius: 5px;
+      margin-right: 10px;
+}
+img{
+     /* position: absolute; */
+     width: 0%;
+     height: 100%;
+     display: none;
+
+}
+.slideshow img {
+    display: block;
+    transition: 2s;
+    width: 100%;
+}
